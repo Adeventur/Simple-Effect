@@ -1,7 +1,11 @@
-$(document).ready(function() {
-        $(".clickable").click(function() {
-          $("#walrus-showing").toggle();
-          $("#walrus-hidden").toggle();
-        });
-        $('#.clickable').fadeIn(1000);
-      });
+$(document).ready(function () {
+  // $(".clickable").click(function () {
+  //   $("#walrus-showing").toggle().fadeIn();
+  //   $("#walrus-hidden").toggle().fadeOut();
+  // });
+
+  $(".clickable").click(function () {
+    $("#walrus-showing").slideToggle().slideDown();
+    $("#walrus-hidden").slideToggle().slideUp();
+  });
+});
