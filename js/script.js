@@ -4,8 +4,8 @@ $(document).ready(function () {
     $("#walrus-hidden").toggle().fadeOut();
   });
 
-//   $(".clickable").click(function () {
-//     $("#walrus-showing").slideToggle().slideDown();
-//     $("#walrus-hidden").slideToggle().slideUp();
-//   });
-// })
+  $(".clickable").click(function () {
+    $("#walrus-showing").slideToggle().slideDown();
+    $("#walrus-hidden").slideToggle().slideUp();
+  });
+})
